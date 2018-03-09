@@ -1,3 +1,85 @@
+@font-face {
+  font-family: 'headmenu-iconfont';  /* project id 585906 */
+  src: url('//at.alicdn.com/t/font_585906_916r807fdnmw8kt9.eot');
+  src: url('//at.alicdn.com/t/font_585906_916r807fdnmw8kt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_585906_916r807fdnmw8kt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_585906_916r807fdnmw8kt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_585906_916r807fdnmw8kt9.svg#headmenu-iconfont') format('svg');
+}
 .oxmod-headmenu{
 /* CSS */
+	-webkit-tap-highlight-color:none;
+	nav{
+		height: 50px;
+		line-height: 50px;
+		//background-color: rgba(0,0,0,.8);
+		box-shadow: 0 1px 2px #eee;		
+	}
+	img{
+		max-height: 40px;
+		max-width: 200px;
+		margin:0 5px;
+		vertical-align: middle;
+	}
+	.menu{
+		float: right;
+		height: 50px;
+	}
+	.icon-menu{
+		font-family: 'headmenu-iconfont';
+		color:#666;
+		font-size: 32px;
+		display: inline-block;
+		vertical-align: 0;
+		background:transparent;
+		border:none;
+		width:auto;
+		padding:0;
+		margin:0;
+		height: 50px;
+		width:50px;
+		line-height: 50px;
+		transition: all .3s;
+		outline: none;
+		-webkit-tap-highlight-color:none;
+	}
+	.opened{
+		.list{
+			transform: scale(1);
+			opacity: 1;
+
+		}
+	}
+	.list{
+		transform: scale(0);
+		transform-origin: 100% 0;
+
+		opacity: 0;
+		transition: all .3s;
+		line-height: 40px;
+		position: absolute;
+		z-index: 10;
+		top:50px;
+		left:0;
+		width:100%;
+		background-color: #ececec;
+		overflow: hidden;
+		>li{
+			border-bottom: solid 1px #dcdcdc;
+			text-indent: .8em;
+			font-size: 15px;
+			>a{
+				display: inline-block;
+				width:100%;
+			}
+		}
+		a{
+			color:#333;
+		}
+	}
+	.opened{
+		.icon-menu{
+			background-color: #ececec;
+		}
+	}
  }

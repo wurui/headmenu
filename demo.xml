@@ -14,20 +14,30 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <headmenu>
-        <logo>
-            //a.oxm1.cc/img/fox.jpg
-        </logo>
-        <menu>
-            <i>
-                <title>
-                    nice watch
-                </title>
-                <href>
-                    //a.oxm1.cc/img/fox.jpg
-                </href>
-            </i>
-        </menu>
-    </headmenu>
+        <headmenu>
+            <logo>http://i.oxm1.cc/uploads/git/wurui/img/2aeewukk5Tj4xg715nRuvjzA7bk-294.png</logo>
+            <menu>
+                <i>
+                    <title>商用产品</title>
+                    <href></href>
+                </i>
+                <i>
+                    <title>家用产品</title>
+                    <href></href>
+                </i>
+                <i>
+                    <title>服务支持</title>
+                    <href></href>
+                </i>
+                <i>
+                    <title>工作机会</title>
+                    <href></href>
+                </i>
+                <i>
+                    <title>联系我们</title>
+                    <href></href>
+                </i>
+            </menu>
+        </headmenu>
     </data>
 </root>
