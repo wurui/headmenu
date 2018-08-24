@@ -1,6 +1,8 @@
 {
   "name": "headmenu",
   "version": "0.0.1",
-  "apiDependencies": ["headmenu"]
+  "apiDependencies": [
+  	{"name":"headmenu"}
+  ]
 }
 
