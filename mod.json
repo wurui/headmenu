@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "apiDependencies": [
   	{"name":"ui-imglist"},
-  	{"name":"ui-entry"},
+  	{"name":"ui-entry"}
   ]
 }
 
