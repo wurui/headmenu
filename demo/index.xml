@@ -14,30 +14,47 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <headmenu>
-            <logo>http://i.oxm1.cc/uploads/git/wurui/img/2aeewukk5Tj4xg715nRuvjzA7bk-294.png</logo>
-            <menu>
-                <i>
-                    <title>商用产品</title>
-                    <href></href>
-                </i>
-                <i>
-                    <title>家用产品</title>
-                    <href></href>
-                </i>
-                <i>
-                    <title>服务支持</title>
-                    <href></href>
-                </i>
-                <i>
-                    <title>工作机会</title>
-                    <href></href>
-                </i>
-                <i>
-                    <title>联系我们</title>
-                    <href></href>
-                </i>
-            </menu>
-        </headmenu>
+        <ui-imglist>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aeewukk5Tj4xg715nRuvjzA7bk-294.png</img>
+                <title>声罄科技介绍</title>
+                <href></href>
+            </i>
+        </ui-imglist>
+
+        <ui-entry>
+            <i>
+                <title>首页</title>
+                <href>#index</href>
+                <subtitle></subtitle>
+                <icon></icon>
+                <bg></bg>
+            </i>
+            <i>
+                <title>设置</title>
+                <href>#settings</href>
+                <subtitle></subtitle>
+                <icon></icon>
+                <bg></bg>
+            </i>
+            <i>
+                <title>家用产品</title>
+                <href></href>
+            </i>
+            <i>
+                <title>服务支持</title>
+                <href></href>
+            </i>
+            <i>
+                <title>工作机会</title>
+                <href></href>
+            </i>
+            <i>
+                <title>联系我们</title>
+                <href></href>
+            </i>
+        </ui-entry>
+
+        
     </data>
 </root>

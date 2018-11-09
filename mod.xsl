@@ -6,15 +6,15 @@
             	<div class="menu">
             		<button class="icon-menu">&#xe600;</button><br/>
             		<ul class="list">
-            			<xsl:for-each select="data/headmenu/menu/i">
+            			<xsl:for-each select="data/ui-entry/i">
             				<li>
             					<a href="{href}"><xsl:value-of select="title"/></a>
             				</li>
             			</xsl:for-each>
             		</ul>
             	</div>
-            	<xsl:if test="data/headmenu/logo">
-                	<img src="{data/headmenu/logo}"/>
+            	<xsl:if test="data/ui-imglist/i[1]/img">
+                	<img src="{data/ui-imglist/i[1]/img}"/>
                 </xsl:if>
 
             </nav>

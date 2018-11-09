@@ -2,7 +2,8 @@
   "name": "headmenu",
   "version": "0.0.1",
   "apiDependencies": [
-  	{"name":"headmenu"}
+  	{"name":"ui-imglist"},
+  	{"name":"ui-entry"},
   ]
 }
 
