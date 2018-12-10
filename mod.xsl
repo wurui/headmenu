@@ -15,6 +15,7 @@
             	</div>
             	<xsl:if test="data/ui-imglist/i[1]/img">
                 	<img src="{data/ui-imglist/i[1]/img}"/>
+                    <sub><xsl:value-of select="data/ui-imglist/i[1]/title"/></sub>
                 </xsl:if>
 
             </nav>
