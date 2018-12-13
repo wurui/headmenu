@@ -27,7 +27,7 @@
 	}
 	.icon-menu{
 		font-family: 'headmenu-iconfont';
-		color:#666;
+		//color:#666;
 		font-size: 32px;
 		display: inline-block;
 		vertical-align: 0;
@@ -42,12 +42,15 @@
 		transition: all .3s;
 		outline: none;
 		-webkit-tap-highlight-color:none;
+
 	}
 	.opened{
 		.list{
 			transform: scale(1);
 			opacity: 1;
-
+		}
+		.icon-menu{
+			text-shadow:0 1px 1px #999;
 		}
 	}
 	.list{
@@ -59,7 +62,7 @@
 		line-height: 40px;
 		position: absolute;
 		z-index: 10;
-		top:50px;
+		margin-top:-8px;
 		left:0;
 		width:100%;
 		background-color: #ececec;

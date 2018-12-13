@@ -4,7 +4,7 @@
         <div class="J_OXMod oxmod-headmenu" ox-mod="headmenu">
             <nav>
             	<div class="menu">
-            		<button class="icon-menu">&#xe600;</button><br/>
+            		<button class="icon-menu skin-color">&#xe600;</button><br/>
             		<ul class="list">
             			<xsl:for-each select="data/ui-entry/i">
             				<li>
