@@ -1,9 +1,8 @@
 {
-  "name": "headmenu",
-  "version": "0.0.1",
-  "apiDependencies": [
-  	{"name":"ui-imglist"},
-  	{"name":"ui-entry"}
-  ]
+	"RULE_VERSION":"20190428",
+	"name": "headmenu",
+	"apiDependencies": [
+		{"name":"the-site"}
+	]
 }
 
